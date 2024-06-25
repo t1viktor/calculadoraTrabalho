@@ -1,1 +1,1 @@
-(./calculadora.png)
+[](./calculadora.png)
