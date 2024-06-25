@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <h2>Calculadora de Salário</h2>
+        <label for="valorHora">Valor por hora:</label>
+        <input type="number" id="valorHora" placeholder="Digite o valor por hora">
+    
+        <label for="horasTrabalhadas">Horas trabalhadas no mês:</label>
+        <input type="number" id="horasTrabalhadas" placeholder="Digite as horas trabalhadas">
+    
+        <button onclick="calcularSalario()">Calcular</button>
+    
+        <div class="resultado">
+            <p><strong> Salário bruto:</strong> <span id="salarioBruto"></span></p>
+            <p><strong> Desconto do INSS:</strong> <span id="descontoINSS"></span></p>
+            <p><strong>Desconto do Sindicato:</strong> <span id="descontoSindicato"></span></p>
+            <p><strong>Salário líquido:</strong> <span id="salarioLiquido"></span></p>
+            <p><strong>Total dos descontos:</strong> <span id="totalDescontos"></span></p>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
